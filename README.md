@@ -348,7 +348,7 @@ streamlit run app.py
 # Clone Repository
 
 ```bash
-[git clone YOUR_GITHUB_REPOSITORY_LINK](https://github.com/LeutnantMutig/-AI-vs-Human-Text-Detection)
+https://github.com/LeutnantMutig/-AI-vs-Human-Text-Detection
 ```
 
 ```bash

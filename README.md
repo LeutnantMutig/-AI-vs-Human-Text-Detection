@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 # 🧠 AI-Generated vs Human-Written Text Detection using NLP
 
 ## 📌 Project Overview
+=======
+🧠 AI-Generated vs Human-Written Text Detection using NLP
+
+📌 Project Overview
+>>>>>>> d1fd0ea9ce3225b8e63b3b0ade2fb97c24c1b2d6
 
 With the rapid advancement of Large Language Models (LLMs) such as ChatGPT, Gemini, Claude, and other generative AI systems, distinguishing AI-generated content from human-written text has become an important challenge in academia, publishing, education, and content verification.
 
@@ -20,7 +26,11 @@ The system classifies text into:
 
 ---
 
+<<<<<<< HEAD
 ## 🎯 Key Features
+=======
+🎯 Key Features
+>>>>>>> d1fd0ea9ce3225b8e63b3b0ade2fb97c24c1b2d6
 
 * Complete NLP Pipeline
 * Text Cleaning & Preprocessing
@@ -38,7 +48,11 @@ The system classifies text into:
 
 ---
 
+<<<<<<< HEAD
 # 📚 Research Foundation
+=======
+📚 Research Foundation
+>>>>>>> d1fd0ea9ce3225b8e63b3b0ade2fb97c24c1b2d6
 
 This project is inspired by research conducted on AI-generated text detection.
 
@@ -65,7 +79,11 @@ Users are requested to download the dataset directly from the original source.
 
 ---
 
+<<<<<<< HEAD
 # 📊 Dataset Information
+=======
+📊 Dataset Information
+>>>>>>> d1fd0ea9ce3225b8e63b3b0ade2fb97c24c1b2d6
 
 ### Files Used
 
@@ -84,7 +102,11 @@ Users are requested to download the dataset directly from the original source.
 
 ---
 
+<<<<<<< HEAD
 # ⚙️ Complete Project Pipeline
+=======
+⚙️ Complete Project Pipeline
+>>>>>>> d1fd0ea9ce3225b8e63b3b0ade2fb97c24c1b2d6
 
 Raw Dataset
 
@@ -126,9 +148,15 @@ Deployment
 
 ---
 
+<<<<<<< HEAD
 # 🧹 Text Preprocessing
 
 ### File
+=======
+🧹 Text Preprocessing
+
+#File
+>>>>>>> d1fd0ea9ce3225b8e63b3b0ade2fb97c24c1b2d6
 
 preprocessing/preprocess.py
 
@@ -142,7 +170,11 @@ preprocessing/preprocess.py
 * Stopword Removal
 * Lemmatization
 
+<<<<<<< HEAD
 ### Output
+=======
+# Output
+>>>>>>> d1fd0ea9ce3225b8e63b3b0ade2fb97c24c1b2d6
 
 data/final_preprocessed_data.csv
 
@@ -153,6 +185,7 @@ Columns:
 
 ---
 
+<<<<<<< HEAD
 # 🔀 Dataset Splitting
 
 ### File
@@ -160,6 +193,15 @@ Columns:
 models/data_split.py
 
 ### Functionality
+=======
+🔀 Dataset Splitting
+
+# File
+
+models/data_split.py
+
+# Functionality
+>>>>>>> d1fd0ea9ce3225b8e63b3b0ade2fb97c24c1b2d6
 
 * Removes duplicate records
 * Removes empty text samples
@@ -167,18 +209,27 @@ models/data_split.py
 * Prevents data leakage
 * Creates train-test split
 
+<<<<<<< HEAD
 ### Output
+=======
+# Output
+>>>>>>> d1fd0ea9ce3225b8e63b3b0ade2fb97c24c1b2d6
 
 * train_data.csv
 * test_data.csv
 
+<<<<<<< HEAD
 ### Split Ratio
+=======
+# Split Ratio
+>>>>>>> d1fd0ea9ce3225b8e63b3b0ade2fb97c24c1b2d6
 
 * Training: 80%
 * Testing: 20%
 
 ---
 
+<<<<<<< HEAD
 # 🧠 Hybrid Feature Engineering
 
 ### File
@@ -186,6 +237,15 @@ models/data_split.py
 features/hybrid_features_from_split.py
 
 ### Feature Categories
+=======
+🧠 Hybrid Feature Engineering
+
+# File
+
+features/hybrid_features_from_split.py
+
+# Feature Categories
+>>>>>>> d1fd0ea9ce3225b8e63b3b0ade2fb97c24c1b2d6
 
 #### 1. TF-IDF Features
 
@@ -215,12 +275,17 @@ all-MiniLM-L6-v2
 Embedding Dimension:
 384
 
+<<<<<<< HEAD
 ### Final Feature Vector
+=======
+# Final Feature Vector
+>>>>>>> d1fd0ea9ce3225b8e63b3b0ade2fb97c24c1b2d6
 
 5395 Features Per Sample
 
 ---
 
+<<<<<<< HEAD
 # 🤖 Machine Learning Models
 
 ### File
@@ -228,12 +293,25 @@ Embedding Dimension:
 models/train_models.py
 
 ### Models Implemented
+=======
+🤖 Machine Learning Models
+
+# File
+
+models/train_models.py
+
+# Models Implemented
+>>>>>>> d1fd0ea9ce3225b8e63b3b0ade2fb97c24c1b2d6
 
 1. Logistic Regression
 2. XGBoost
 3. Stacking Ensemble
 
+<<<<<<< HEAD
 ### Best Traditional ML Model
+=======
+# Best Traditional ML Model
+>>>>>>> d1fd0ea9ce3225b8e63b3b0ade2fb97c24c1b2d6
 
 Logistic Regression
 
@@ -242,6 +320,7 @@ Accuracy:
 
 ---
 
+<<<<<<< HEAD
 # 🧠 Deep Learning Model
 
 ### File
@@ -249,6 +328,15 @@ Accuracy:
 models/train_roberta.py
 
 ### Transformer Model
+=======
+🧠 Deep Learning Model
+
+# File
+
+models/train_roberta.py
+
+# Transformer Model
+>>>>>>> d1fd0ea9ce3225b8e63b3b0ade2fb97c24c1b2d6
 
 Model:
 roberta-base
@@ -261,13 +349,21 @@ Training Configuration:
 
 ---
 
+<<<<<<< HEAD
 # 🔥 Ensemble Model
+=======
+🔥 Ensemble Model
+>>>>>>> d1fd0ea9ce3225b8e63b3b0ade2fb97c24c1b2d6
 
 Final Prediction Formula
 
 0.7 × RoBERTa + 0.3 × Logistic Regression
 
+<<<<<<< HEAD
 ### Why Ensemble?
+=======
+# Why Ensemble?
+>>>>>>> d1fd0ea9ce3225b8e63b3b0ade2fb97c24c1b2d6
 
 RoBERTa captures:
 
@@ -284,6 +380,7 @@ Combining both improves overall performance.
 
 ---
 
+<<<<<<< HEAD
 # 📊 Performance Evaluation
 
 ### File
@@ -291,13 +388,26 @@ Combining both improves overall performance.
 evaluation/evaluate.py
 
 ### Metrics Used
+=======
+📊 Performance Evaluation
+
+# File
+
+evaluation/evaluate.py
+
+# Metrics Used
+>>>>>>> d1fd0ea9ce3225b8e63b3b0ade2fb97c24c1b2d6
 
 * Accuracy
 * Precision
 * Recall
 * F1 Score
 
+<<<<<<< HEAD
 ### Results
+=======
+# Results
+>>>>>>> d1fd0ea9ce3225b8e63b3b0ade2fb97c24c1b2d6
 
 | Model               | Accuracy |
 | ------------------- | -------- |
@@ -305,7 +415,11 @@ evaluation/evaluate.py
 | RoBERTa             | ~89%     |
 | Ensemble Model      | ~90%     |
 
+<<<<<<< HEAD
 ### Final Performance
+=======
+# Final Performance
+>>>>>>> d1fd0ea9ce3225b8e63b3b0ade2fb97c24c1b2d6
 
 Accuracy:
 89–90%
@@ -315,6 +429,7 @@ F1 Score:
 
 ---
 
+<<<<<<< HEAD
 # 🚀 Streamlit Deployment
 
 ### File
@@ -322,6 +437,15 @@ F1 Score:
 app.py
 
 ### Features
+=======
+🚀 Streamlit Deployment
+
+# File
+
+app.py
+
+# Features
+>>>>>>> d1fd0ea9ce3225b8e63b3b0ade2fb97c24c1b2d6
 
 * Text Input Box
 * AI/Human Classification
@@ -329,13 +453,21 @@ app.py
 * Ensemble Prediction
 * Real-Time Inference
 
+<<<<<<< HEAD
 ### Run Application
+=======
+# Run Application
+>>>>>>> d1fd0ea9ce3225b8e63b3b0ade2fb97c24c1b2d6
 
 ```bash
 streamlit run app.py
 ```
 
+<<<<<<< HEAD
 ### Prediction Output
+=======
+# Prediction Output
+>>>>>>> d1fd0ea9ce3225b8e63b3b0ade2fb97c24c1b2d6
 
 * 🤖 AI Generated
 * 👤 Human Written
@@ -343,19 +475,32 @@ streamlit run app.py
 
 ---
 
+<<<<<<< HEAD
 # 📦 Installation Guide
 
 ## Clone Repository
 
 ```bash
 git clone YOUR_GITHUB_REPOSITORY_LINK
+=======
+📦 Installation Guide
+
+# Clone Repository
+
+```bash
+https://github.com/LeutnantMutig/-AI-vs-Human-Text-Detection
+>>>>>>> d1fd0ea9ce3225b8e63b3b0ade2fb97c24c1b2d6
 ```
 
 ```bash
 cd AI vs Human Text-Detection
 ```
 
+<<<<<<< HEAD
 ## Create Virtual Environment
+=======
+# Create Virtual Environment
+>>>>>>> d1fd0ea9ce3225b8e63b3b0ade2fb97c24c1b2d6
 
 ```bash
 python -m venv venv
@@ -375,7 +520,11 @@ Linux/Mac:
 source venv/bin/activate
 ```
 
+<<<<<<< HEAD
 ## Install Dependencies
+=======
+# Install Dependencies
+>>>>>>> d1fd0ea9ce3225b8e63b3b0ade2fb97c24c1b2d6
 
 ```bash
 pip install -r requirements.txt
@@ -383,7 +532,11 @@ pip install -r requirements.txt
 
 ---
 
+<<<<<<< HEAD
 # 🏋️ Training From Scratch
+=======
+🏋️ Training From Scratch
+>>>>>>> d1fd0ea9ce3225b8e63b3b0ade2fb97c24c1b2d6
 
 Step 1
 
@@ -417,7 +570,11 @@ python models/train_roberta.py
 
 ---
 
+<<<<<<< HEAD
 # 📥 Pretrained Models
+=======
+📥 Pretrained Models
+>>>>>>> d1fd0ea9ce3225b8e63b3b0ade2fb97c24c1b2d6
 
 Due to GitHub size limitations, pretrained RoBERTa models are not included in this repository.
 
@@ -432,7 +589,11 @@ models/saved/
 
 ---
 
+<<<<<<< HEAD
 # 📁 Project Structure
+=======
+📁 Project Structure
+>>>>>>> d1fd0ea9ce3225b8e63b3b0ade2fb97c24c1b2d6
 
 AI-Text-Detection/
 
@@ -458,7 +619,11 @@ AI-Text-Detection/
 
 ---
 
+<<<<<<< HEAD
 # 📸 Screenshots
+=======
+📸 Screenshots
+>>>>>>> d1fd0ea9ce3225b8e63b3b0ade2fb97c24c1b2d6
 
 Add application screenshots here.
 
@@ -474,7 +639,11 @@ Examples:
 
 ---
 
+<<<<<<< HEAD
 # ⚠️ Limitations
+=======
+⚠️ Limitations
+>>>>>>> d1fd0ea9ce3225b8e63b3b0ade2fb97c24c1b2d6
 
 * Academic writing may occasionally be misclassified.
 * Human and AI writing styles may overlap.
@@ -483,7 +652,11 @@ Examples:
 
 ---
 
+<<<<<<< HEAD
 # 🏁 Conclusion
+=======
+🏁 Conclusion
+>>>>>>> d1fd0ea9ce3225b8e63b3b0ade2fb97c24c1b2d6
 
 This project demonstrates a complete end-to-end NLP solution for AI-generated text detection.
 
@@ -500,19 +673,32 @@ The final ensemble system achieves approximately 90% accuracy and provides a pra
 
 ---
 
+<<<<<<< HEAD
 ## 👨‍💻 Author
+=======
+👨‍💻 Author
+>>>>>>> d1fd0ea9ce3225b8e63b3b0ade2fb97c24c1b2d6
 
 Chirag Pawar
 
 B.Tech Computer Science Engineering (AI & ML)
 
 GitHub:
+<<<<<<< HEAD
  [https://github.com[/LeutnantMutig](https://github.com[/LeutnantMutig%5D%28https://github.com/LeutnantMutig%29)
 
 LinkedIn:
 [www.linkedin.com/in/chiragpawar01](http://www.linkedin.com/in/chiragpawar01)
 
 # ⭐ Support
+=======
+https://github.com[/LeutnantMutig](https://github.com/LeutnantMutig)
+
+LinkedIn:
+www.linkedin.com/in/chiragpawar01
+
+⭐ Support
+>>>>>>> d1fd0ea9ce3225b8e63b3b0ade2fb97c24c1b2d6
 
 If you found this project useful, consider giving it a star on GitHub.
 

@@ -1,0 +1,42 @@
+# Core Libraries
+numpy==1.26.4
+pandas==2.3.3
+scikit-learn==1.5.1
+
+# NLP
+nltk==3.9.1
+sentence-transformers==2.7.0
+textstat==0.7.3
+
+# Deep Learning (GPU compatible)
+torch==2.5.1+cu121
+torchvision==0.20.1+cu121
+torchaudio==2.5.1+cu121
+
+# Transformers
+transformers==4.41.2
+tokenizers==0.19.1
+
+# Progress / Utilities
+tqdm==4.67.1
+joblib==1.4.2
+
+# Visualization
+matplotlib==3.9.2
+seaborn==0.13.2
+
+# ML Models
+xgboost==2.1.1
+
+# Web App
+streamlit==1.55.0
+
+# Optional (recommended)
+scipy==1.13.1
+
+
+
+# So AFTER installing You MUST run
+
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+

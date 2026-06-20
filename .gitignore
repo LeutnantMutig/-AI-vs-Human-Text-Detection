@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+
+# VS Code
+.vscode/
+
+# Dataset
+data/
+
+# Large Models
+models/roberta_results/
+models/saved/roberta_model/
+
+# Generated Features
+features/saved/X_train.npz
+features/saved/X_test.npz
+features/saved/y_train.npy
+features/saved/y_test.npy
+
+# Logs
+*.log
+
